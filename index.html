@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello...</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+
+    <script type="text/javascript" src="../js/vendor/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="../js/rotate.min.js"></script>
+    <script src="../js/modal.js"></script>
+</head>
+
+<body>
+
+    <div id="mainContent">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="pointers">
+                    <div class="rotateButtonHolder"><button class="btn btn-success rotateButton center-block">Rotate</button></div>
+                </div>
+                <div id="frontOverlayContainer">
+                    <div class="hotspotFront">
+                        <ul id="listcontainer">
+                            <li class="li1">
+                                <span class="tooltipBuilding"><h3>For Sale</h3>Lot Number: 0453<br>Price: £100,000<br>Rooms: 4<br>Square Foot: 200<br>Bathrooms: 2<br>bedrooms: 2<br><b>Click for more details</b><br>&nbsp;</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id='noFurn'></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Large modal -->
+    <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Information for lot 104</h4>
+                </div>
+                <div class="container floorplan">
+                    <div class="row">
+                        <div class="col-md-5"><img height="600px" src="../img/floorPlan.jpg"></div>
+                        <div class="col-md-5">
+                            <div class="12">
+                                <div class="row detail-text">
+                                    <div class="col-sm-12">
+                                        <p>antal rum: 4</p>
+
+                                        <p>bostadsyta: 101 KVM</p>
+
+                                        <p>månadsavgift: 5376</p>
+
+                                        <p>status: LEDIG</p>
+
+                                    </div>
+                                </div>
+                                <div class="row detail-text">
+                                    <div class="col-sm-12">
+                                        <p><b>Kontakta</b></p>
+
+                                        <p>mäklaren kvm</p>
+
+                                        <p>och boka</p>
+
+                                        <p>boka</p>
+                                        <p>en tid</p>
+
+                                    </div>
+                                </div>
+
+                                <div class="row detail-text">
+                                    <div class="col-sm-12">
+                                        <p><b><a href="#">Download PDF</a></b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/hoverToFrame.js"></script>
+
+</body>
+
+</html>
